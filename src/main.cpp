@@ -14,8 +14,8 @@
 
 // Vocalizer: the local player says the game's own voice lines on hotkeys ("Watch out!", "Nice shot!", calling the
 // partner by name...), and answers their own actions with the lines the partner AI says for them (giving an item,
-// healing the partner, reloading). The groups of lines are the ones of the original Vocalizer
-// (github.com/LuBuCake/RE5.Mod.Vocalizer): each key cycles through its lines; the lines that depend on the partner
+// healing the partner, reloading). The groups of lines are the ones of the original Vocalizer (version 1,
+// github.com/LuBuCake/MTFE-RE5-Vocalizer): each key cycles through its lines; the lines that depend on the partner
 // (name, death, what to ask for) are picked from the partner's character and equipped weapon. The responses are the
 // game's own code (see "the responses" below). Hotkeys in Extras > Special Settings > MODS > Vocalizer.
 

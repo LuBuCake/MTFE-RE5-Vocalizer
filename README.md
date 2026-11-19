@@ -56,7 +56,7 @@ A key does nothing while a line is still playing, in menus, or when the player i
 
 ```
 GitHub\
-  RE5.Mod.Vocalizer\
+  MTFE-RE5-Vocalizer\
   CommonLibRE5\
 ```
 

@@ -1,14 +1,12 @@
 Vocalizer
 =========
 
-A **Resident Evil 5** plugin that lets the player speak: the game's own voice lines on hotkeys ("Watch out!", "Nice shot!", calling the partner by name, asking for the weapon the partner has equipped...), plus the **responses the partner AI gives to its own actions**, now for the player too.
-
-Version 2 is a plugin for [MTFE](https://github.com/LuBuCake/MTFE), written with [CommonLibRE5](https://github.com/LuBuCake/CommonLibRE5). Version 1 was a standalone DLL for the older executable; its voice groups and default keys are kept.
+A **Resident Evil 5** plugin for [MTFE](https://github.com/LuBuCake/MTFE) that lets the player speak: the game's own voice lines on hotkeys ("Watch out!", "Nice shot!", calling the partner by name, asking for the weapon the partner has equipped...), plus the **responses the partner AI gives to its own actions**, now for the player too.
 
 ## Features
 
 * **25 voice groups on hotkeys**, each cycling through its lines. The ones about the partner pick the line from the partner's character (Chris, Sheva, Jill, Wesker, Josh, Excella, Barry, Rebecca) and from the item the partner has equipped.
-* **Action responses**: when the player gives an item to the partner, heals the partner or helps them up, or reloads, the character says the same lines the AI partner says for those actions, with the game's own rules (random line, cooldowns, the reload line on 10% of the reloads). This is the game's code, not an imitation (see [docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md)).
+* **Action responses**: when the player gives an item to the partner, heals the partner or helps them up, or reloads, the character says the same lines the AI partner says for those actions, with the game's own rules (random line, cooldowns, the reload line on 10% of the reloads).
 * **Online**: the lines also reach the online partner, as the game's own voice lines do.
 * **Settings in the game's menu**: Extras > Special Settings > MODS > Vocalizer. Every key can be changed there.
 
@@ -34,7 +32,7 @@ A key does nothing while a line is still playing, in menus, or when the player i
 
 ## Requirements
 
-* Resident Evil 5 (Steam, Gold Edition, the 2023 update).
+* Resident Evil 5 (Steam, Gold Edition, version 1.2.0).
 * [MTFE](https://github.com/LuBuCake/MTFE) 1.0 or newer.
 
 ## Installing
@@ -72,13 +70,6 @@ xmake build
 ```
 
 The plugin is `build\windows\x86\releasedbg\Vocalizer.dll`.
-
-## Project Layout
-
-```
-src/main.cpp          voice groups, partner lines, hotkeys, menu page, action responses
-docs/HOW-IT-WORKS.md  how the game speaks and how the responses work
-```
 
 ## License
 

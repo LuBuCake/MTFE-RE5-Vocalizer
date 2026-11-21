@@ -39,7 +39,7 @@ A key does nothing while a line is still playing, in menus, or when the player i
 
 1. Install MTFE.
 2. Copy `Vocalizer.dll` into `<game>\MTFE\Plugins\`.
-3. Settings: Extras > Special Settings > MODS > Vocalizer, saved in `<game>\MTFE\Config\Vocalizer.ini`. Log: `<game>\MTFE\Logs\Vocalizer.log`.
+3. Settings: Play Game > Special Settings > MODS > Vocalizer, saved in `<game>\MTFE\Config\Vocalizer.ini`. Log: `<game>\MTFE\Logs\Vocalizer.log`.
 
 | Setting | Default | |
 | --- | --- | --- |

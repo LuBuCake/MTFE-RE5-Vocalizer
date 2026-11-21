@@ -8,7 +8,7 @@ A **Resident Evil 5** plugin for [MTFE](https://github.com/LuBuCake/MTFE) that l
 * **25 voice groups on hotkeys**, each cycling through its lines. The ones about the partner pick the line from the partner's character (Chris, Sheva, Jill, Wesker, Josh, Excella, Barry, Rebecca) and from the item the partner has equipped.
 * **Action responses**: when the player gives an item to the partner, heals the partner or helps them up, or reloads, the character says the same lines the AI partner says for those actions, with the game's own rules (random line, cooldowns, the reload line on 10% of the reloads).
 * **Online**: the lines also reach the online partner, as the game's own voice lines do.
-* **Settings in the game's menu**: Extras > Special Settings > MODS > Vocalizer. Every key can be changed there.
+* **Settings in the game's menu**: Play Game > Special Settings > MODS > Vocalizer. Every key can be changed there.
 
 ## Default Keys
 
